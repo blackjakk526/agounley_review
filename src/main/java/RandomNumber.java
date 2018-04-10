@@ -70,11 +70,11 @@ public class RandomNumber {
         public int nextIntRand(int lo, int hi) 
                                 throws InvalidOperationException {
 
+
                 if (lo > hi) {
                         throw new InvalidOperationException(
                                 "invalid range: " + lo + " > " + hi);
                 }
-
                 return (int) (nextDoubleRand() * (hi - lo + 1)  + lo);
         }
 }
