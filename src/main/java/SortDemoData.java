@@ -85,6 +85,7 @@ public class SortDemoData  {
                         //if (choice < 0 || choice > 5) choice = 0;
                         
                    
+
                         if(choice > 5 || choice <= 0){ 
                         	SortAlgos.bubbleSort(myArray);  
                         	algo = "Bubble Sort";
@@ -111,6 +112,7 @@ public class SortDemoData  {
                 			algo = "Heap Sort";
                         }
                         
+
                         
                         // output initial sequence of unsorted and sorted array 
                         int limit = Math.min(myArray.length, 1024);
